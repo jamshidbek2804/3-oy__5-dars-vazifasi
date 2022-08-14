@@ -1,0 +1,76 @@
+.main {
+  width: 100%;
+  padding-top: 100px;
+
+  &__title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: grey;
+    text-align: center;
+  }
+
+  &__form {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  label {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+  }
+
+  label:hover {
+    cursor: pointer;
+  }
+
+  input {
+    text-align: center;
+    border: none;
+    color: #fff;
+    padding: 2px;
+    border: 1px solid rgb(233, 21, 222);
+    border-radius: 5px;
+    background-color: rgb(233, 21, 222);
+    box-shadow: 0 2px 5px black;
+    outline: none;
+  }
+
+  button {
+    font-family: "Poppins", sans-serif;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  &__error {
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
+    color: #fff;
+    background-color: red;
+  }
+
+  &__cards {
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  &__card {
+    padding: 50px;
+    border: 1px solid rgb(233, 21, 222);
+    border-radius: 5px;
+    background-color: rgb(233, 21, 222);
+    box-shadow: 0 2px 5px black;
+  }
+
+  &__card > p {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+  }
+}
